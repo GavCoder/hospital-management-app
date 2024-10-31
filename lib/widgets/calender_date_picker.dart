@@ -4,7 +4,7 @@ class CalendarDatePickerField extends StatefulWidget {
   final TextEditingController controller;
   final String labelText;
 
-  const CalendarDatePickerField({Key? key, required this.controller, required this.labelText}) : super(key: key);
+  const CalendarDatePickerField({super.key, required this.controller, required this.labelText});
 
   @override
   _CalendarDatePickerFieldState createState() => _CalendarDatePickerFieldState();
@@ -21,7 +21,7 @@ class _CalendarDatePickerFieldState extends State<CalendarDatePickerField> {
       decoration: InputDecoration(
         labelText: widget.labelText,
         suffixIcon: IconButton(
-          icon: Icon(Icons.calendar_today),
+          icon: const Icon(Icons.calendar_today),
           onPressed: () async {
             final DateTime? pickedDate = await showDatePicker(
               context: context,

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/widgets.dart';
 import 'package:hospital_management_application/miscellaneous/validators.dart';
 import 'package:hospital_management_application/models/app_model.dart';
 import 'package:provider/provider.dart';

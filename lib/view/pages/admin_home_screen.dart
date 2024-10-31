@@ -3,6 +3,7 @@ import 'package:hospital_management_application/miscellaneous/authentication_ser
 import 'package:hospital_management_application/widgets/app_button.dart';
 import 'package:hospital_management_application/widgets/signOutWidget.dart';
 
+//This is the admin home screen
 class AdminHomeScreen extends StatefulWidget {
   const AdminHomeScreen({super.key});
 
